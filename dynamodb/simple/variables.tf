@@ -29,6 +29,7 @@ variable "hash_key" {
 variable "tags" {
   type        = "map"
   description = "Tags a serem adicionadas aos recursos do dynamodb"
+  default     = {}
 }
 
 # ----------------------------------------------------------------------------------------------------------------------
