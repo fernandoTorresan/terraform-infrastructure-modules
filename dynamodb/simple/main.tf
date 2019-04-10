@@ -9,7 +9,7 @@ terraform {
 }
 
 module "dynamodb" {
-  source = "git::ssh://git@github.com/fernandoTorresan/techtalk-terraform-module-dynamodb.git//modules/dynamodb?ref=0.1.0"
+  source = "git::ssh://git@github.com/fernandoTorresan/terraform-aws-module-dynamodb.git//modules/dynamodb?ref=0.1.0"
 
   table_name                     = "${var.table_name}"
   hash_key                       = "${var.hash_key}"
